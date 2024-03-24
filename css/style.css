@@ -505,10 +505,6 @@ h1 {
   gap: 24px;
 }
 
-.footer_e-mail{
-
-}
-
 .footer_e-mail_input{
   width: 264px;
   height: 40px;
@@ -525,4 +521,26 @@ h1 {
 
 .placeholder{
   color: #ffffff;
+}
+
+.button_subscribe{
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  cursor: pointer;
+  background-color: #4D5AE5;
+  border: none;
+  border-radius: 4px;
+}
+
+.icon_soc-net_footer{
+  margin-left: 16px;
 }
