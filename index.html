@@ -452,11 +452,21 @@
                         Comment
                     </label>
                     <textarea class="container_comment" id="user-comment" name="user-comment" cols="30" rows="10"
-                        placeholder="Text input"></textarea>
+                        placeholder="Text input">
+                    </textarea>
                 </div>
                 <div class="chack-box">
-                    <input class="chack-box_input" id="user-privacy" type="checkbox" value="true" name="user-privacy" visually-hidden>
-                    <label class="chack-box_label" for="user-privacy">I accept the terms and conditions of the <span class="chack-text-spsan">Privacy Policy</span></label>
+                    <input class="chack-box_input" id="user-privacy" type="checkbox" value="true" name="user-privacy"
+                        visually-hidden>
+                    <label class="chack-box_label" for="user-privacy">
+                        <span class="span-chack-box">
+                            <svg class="chackmark" width="10" height="8">
+                                <use href="./images/icons.svg#icon-checkmark"></use>
+                            </svg>
+                        </span>
+                        I accept the terms and conditions of the
+                        <a href="">Privacy Policy</a>
+                    </label>
                 </div>
             </form>
         </div>

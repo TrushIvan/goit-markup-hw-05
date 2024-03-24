@@ -695,6 +695,10 @@ h1 {
   color: #8e8f99;
 }
 
+.span-chack-box{
+
+}
+
 .chack-text-spsan{
   width: 16px;
   height: 16px;
@@ -705,5 +709,5 @@ h1 {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  
+
 }
