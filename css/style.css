@@ -653,10 +653,10 @@ h1 {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
-.icon_soc-net_mw_second:focus,
-.icon_soc-net_mw_second:hover {
+.icon_soc-net_mw_second:focus{
   fill: #4D5AE5;
 }
 
@@ -711,7 +711,7 @@ h1 {
   fill: transparent;
 }
 
-.visually-hidden:checked+.span-chack-box {
+.visually-hidden:checked + .span-chack-box {
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
