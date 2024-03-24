@@ -692,7 +692,7 @@ h1 {
   visibility: hidden;
 }
 
-.chack-box_label{
+.chack-box_label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -709,6 +709,10 @@ h1 {
   align-items: center;
   justify-content: center;
   fill: transparent;
-
 }
 
+.visually-hidden:checked+.span-chack-box {
+  background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD;
+}
