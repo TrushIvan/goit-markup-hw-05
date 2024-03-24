@@ -48,7 +48,7 @@ address {
   ;
 }
 
-.svg{
+.svg {
   fill: none;
 }
 
@@ -495,7 +495,7 @@ h1 {
   max-width: 264px;
 }
 
-.footer_subscribe{
+.footer_subscribe {
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -504,12 +504,12 @@ h1 {
   color: #ffffff;
 }
 
-.footer_form{
+.footer_form {
   display: flex;
   gap: 24px;
 }
 
-.footer_e-mail_input{
+.footer_e-mail_input {
   width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
@@ -523,11 +523,11 @@ h1 {
   color: #ffffff;
 }
 
-.placeholder{
+.placeholder {
   color: #ffffff;
 }
 
-.button_subscribe{
+.button_subscribe {
   min-width: 165px;
   height: 40px;
   display: flex;
@@ -545,14 +545,14 @@ h1 {
   border-radius: 4px;
 }
 
-.icon_soc-net_footer{
+.icon_soc-net_footer {
   margin-left: 16px;
 }
 
 
 /* modal window */
 
-.container_modal-window{
+.container_modal-window {
   position: fixed;
   top: 0;
   left: 0;
@@ -562,7 +562,7 @@ h1 {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-window{
+.modal-window {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -576,7 +576,7 @@ h1 {
   padding: 72px 24px 24px 24px;
 }
 
-.button_modal-window{
+.button_modal-window {
   position: absolute;
   top: 24px;
   right: 24px;
@@ -593,18 +593,18 @@ h1 {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button_modal-window:hover, 
-.button_modal-window:focus{
+.button_modal-window:hover,
+.button_modal-window:focus {
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
 }
 
-.icon_soc-net_mw{
+.icon_soc-net_mw {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mw_item{
+.mw_item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -614,11 +614,11 @@ h1 {
   margin-bottom: 16px;
 }
 
-.container_mw_item-name{
+.container_mw_item-name {
   margin-bottom: 8px;
 }
 
-.content_name{
+.content_name {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -627,11 +627,11 @@ h1 {
   margin-bottom: 4px;
 }
 
-.container_mw_link-name{
+.container_mw_link-name {
   position: relative;
 }
 
-.mw_link-name{
+.mw_link-name {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -642,12 +642,12 @@ h1 {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mw_link-name:focus, 
-.mw_link-name:hover{
+.mw_link-name:focus,
+.mw_link-name:hover {
   border-color: #4D5AE5;
 }
 
-.icon_soc-net_mw_second{
+.icon_soc-net_mw_second {
   position: absolute;
   left: 16px;
   top: 50%;
@@ -656,49 +656,54 @@ h1 {
 }
 
 .icon_soc-net_mw_second:focus,
-.icon_soc-net_mw_second:hover{
+.icon_soc-net_mw_second:hover {
   fill: #4D5AE5;
 }
 
-.container_mw_item-comment{
+.container_mw_item-comment {
   margin-bottom: 16px;
 }
 
-.container_comment{
+.container_comment {
   width: 100%;
   height: 120px;
-  font-size: 12px; 
+  font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  background-color: transparent; 
+  background-color: transparent;
   padding: 8px 16px;
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.container_comment:focus{
+.container_comment:focus {
   border-color: #4D5AE5;
 }
 
-.chack-box{
+.chack-box {
   margin-bottom: 24px;
 }
-.chack-box_input{
+
+.chack-box_input {
   visibility: hidden;
 }
-.span-chack-box{
+
+.chack-box_label{
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+}
+
+.span-chack-box {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px; 
+  border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
   align-items: center;
@@ -707,15 +712,3 @@ h1 {
 
 }
 
-.chack-text-span{
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px; 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
-
-}
