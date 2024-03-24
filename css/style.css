@@ -711,7 +711,7 @@ h1 {
   fill: transparent;
 }
 
-.visually-hidden:checked + .span-chack-box {
+.visually-hidden:checked{
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
