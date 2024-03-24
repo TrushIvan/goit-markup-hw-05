@@ -48,6 +48,10 @@ address {
   ;
 }
 
+.svg{
+  fill: none;
+}
+
 .container_header {
   display: flex;
 }
@@ -655,3 +659,4 @@ h1 {
 .icon_soc-net_mw_second:hover{
   fill: #4D5AE5;
 }
+
