@@ -655,8 +655,7 @@ h1 {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon_soc-net_mw_second:focus,
-.icon_soc-net_mw_second:hover{
+.icon_soc-net_mw_second:focus{
   fill: #4D5AE5;
 }
 
