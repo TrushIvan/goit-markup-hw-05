@@ -730,11 +730,11 @@ h1 {
   color: #4d5ae5;
 }
 
-/* .container_save{
+.container_save{
   display: flex;
   justify-content: center;
   align-items: center;
-} */
+}
 
 .save {
   display: block;
